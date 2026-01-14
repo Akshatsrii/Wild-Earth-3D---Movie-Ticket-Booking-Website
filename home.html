@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wild Earth 3D - Nature Movie Experience</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            <h1>🌿 WILD EARTH 3D</h1>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#showtime" class="nav-link">Showtimes</a></li>
+            <li><a href="#booking" class="nav-link">Book Tickets</a></li>
+            <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<section id="home" class="banner">
+    <div class="background-overlay"></div>
+    <div class="slider" style="--quantity:11">
+        <div class="item" style="--position:1"><img src="images/image1.jpg" alt="Nature Scene 1"></div>
+        <div class="item" style="--position:2"><img src="images/image2.jpg" alt="Nature Scene 2"></div>
+        <div class="item" style="--position:3"><img src="images/image3.jpg" alt="Nature Scene 3"></div>
+        <div class="item" style="--position:4"><img src="images/image4.jpg" alt="Nature Scene 4"></div>
+        <div class="item" style="--position:5"><img src="images/image5.jpg" alt="Nature Scene 5"></div>
+        <div class="item" style="--position:6"><img src="images/image6.jpg" alt="Nature Scene 6"></div>
+        <div class="item" style="--position:7"><img src="images/image7.jpg" alt="Nature Scene 7"></div>
+        <div class="item" style="--position:8"><img src="images/image8.jpg" alt="Nature Scene 8"></div>
+        <div class="item" style="--position:9"><img src="images/image9.jpg" alt="Nature Scene 9"></div>
+        <div class="item" style="--position:10"><img src="images/image10.jpg" alt="Nature Scene 10"></div>
+        <div class="item" style="--position:11"><img src="images/image11.jpg" alt="Nature Scene 11"></div>
+    </div>
+    
+    <div class="hero-content">
+        <h2 class="movie-title">JOURNEY THROUGH THE WILD</h2>
+        <p class="tagline">Experience Nature Like Never Before in Stunning 3D</p>
+        <button class="cta-button" id="hero-cta">Book Your Adventure</button>
+    </div>
+</section>
+
+<section id="about" class="about-section">
+    <div class="container">
+        <h2 class="section-title">About The Movie</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>A Breathtaking Journey Through Earth's Wonders</h3>
+                <p>Embark on an extraordinary 3D adventure through the world's most spectacular natural landscapes. From the depths of the ocean to the peaks of mountains, witness wildlife in their natural habitat like never before.</p>
+                <div class="movie-stats">
+                    <div class="stat">
+                        <span class="stat-number">120</span>
+                        <span class="stat-label">Minutes</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3D</span>
+                        <span class="stat-label">Format</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">4K</span>
+                        <span class="stat-label">Resolution</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">PG</span>
+                        <span class="stat-label">Rating</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-features">
+                <div class="feature">
+                    <span class="feature-icon">🌊</span>
+                    <h4>Ocean Depths</h4>
+                    <p>Dive into crystal clear waters</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">🏔️</span>
+                    <h4>Mountain Peaks</h4>
+                    <p>Soar above majestic ranges</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">🦁</span>
+                    <h4>Wildlife</h4>
+                    <p>Meet nature's magnificent creatures</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">🌳</span>
+                    <h4>Rainforests</h4>
+                    <p>Explore lush green jungles</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="showtime" class="showtime-section">
+    <div class="container">
+        <h2 class="section-title">Showtimes & Dates</h2>
+        <div class="date-selector" id="date-selector">
+           
+        </div>
+        
+        <div class="showtime-grid" id="showtime-grid">
+           
+        </div>
+    </div>
+</section>
+
+
+<section id="booking" class="booking-section">
+    <div class="container">
+        <h2 class="section-title">Book Your Tickets</h2>
+        
+        <div class="booking-container">
+        
+            <div class="seat-selection">
+                <h3>Select Your Seats</h3>
+                <div class="screen-indicator">
+                    <div class="screen-shape">SCREEN</div>
+                </div>
+                
+                <div class="seat-map" id="seat-map">
+                  
+                </div>
+                
+                <div class="seat-legend">
+                    <div class="legend-item">
+                        <div class="seat-sample available"></div>
+                        <span>Available</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="seat-sample selected"></div>
+                        <span>Selected</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="seat-sample occupied"></div>
+                        <span>Occupied</span>
+                    </div>
+                </div>
+            </div>
+            
+          
+            <div class="booking-summary">
+                <h3>Booking Summary</h3>
+                <div class="summary-content">
+                    <div class="summary-item">
+                        <span class="label">Movie:</span>
+                        <span class="value">Journey Through The Wild</span>
+                    </div>
+                    <div class="summary-item">
+                        <span class="label">Date:</span>
+                        <span class="value" id="selected-date">Select a date</span>
+                    </div>
+                    <div class="summary-item">
+                        <span class="label">Time:</span>
+                        <span class="value" id="selected-time">Not selected</span>
+                    </div>
+                    <div class="summary-item">
+                        <span class="label">Screen:</span>
+                        <span class="value" id="selected-screen">-</span>
+                    </div>
+                    <div class="summary-item">
+                        <span class="label">Seats:</span>
+                        <span class="value" id="selected-seats">None</span>
+                    </div>
+                    <div class="summary-item">
+                        <span class="label">Number of Tickets:</span>
+                        <span class="value" id="ticket-count">0</span>
+                    </div>
+                    <div class="summary-divider"></div>
+                    <div class="summary-item total">
+                        <span class="label">Total:</span>
+                        <span class="value" id="total-price">$0.00</span>
+                    </div>
+                </div>
+                
+                <button class="proceed-btn" id="proceed-btn" disabled>
+                    Proceed to Payment
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="gallery" class="gallery-section">
+    <div class="container">
+        <h2 class="section-title">Behind The Scenes</h2>
+        <div class="gallery-grid" id="gallery-grid">
+         
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>🌿 Wild Earth 3D</h4>
+                <p>Experience nature's wonders in breathtaking 3D</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#booking">Book Tickets</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: ak@gmail.com</p>
+                <p>Phone: 90240xxxxxx</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Wild Earth 3D. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+<div id="payment-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal" id="close-payment">&times;</span>
+        <h2>Payment Details</h2>
+        <form id="payment-form">
+            <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" required placeholder="John Doe">
+            </div>
+            <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" required placeholder="john@example.com">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" required placeholder="+1 234 567 8900">
+            </div>
+            <div class="form-group">
+                <label for="card">Card Number *</label>
+                <input type="text" id="card" required placeholder="1234 5678 9012 3456" maxlength="19">
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="expiry">Expiry Date *</label>
+                    <input type="text" id="expiry" required placeholder="MM/YY" maxlength="5">
+                </div>
+                <div class="form-group">
+                    <label for="cvv">CVV *</label>
+                    <input type="text" id="cvv" required placeholder="123" maxlength="3">
+                </div>
+            </div>
+            <div class="payment-summary">
+                <h4>Payment Summary</h4>
+                <p>Total Amount: <span id="modal-total">$0.00</span></p>
+            </div>
+            <button type="submit" class="submit-btn">Confirm Payment</button>
+        </form>
+    </div>
+</div>
+
+
+<div id="success-modal" class="modal">
+    <div class="modal-content success">
+        <div class="success-icon">✓</div>
+        <h2>Booking Confirmed!</h2>
+        <p>Your tickets have been booked successfully.</p>
+        <p class="booking-details" id="booking-details"></p>
+        <p>A confirmation email has been sent to <span id="confirmation-email"></span></p>
+        <button class="submit-btn" id="close-success">Done</button>
+    </div>
+</div>
+
+
+<div id="lightbox" class="lightbox">
+    <span class="lightbox-close" id="lightbox-close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+    <div class="lightbox-caption" id="lightbox-caption"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
